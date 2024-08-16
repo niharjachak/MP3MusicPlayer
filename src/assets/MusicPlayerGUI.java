@@ -14,7 +14,7 @@ import java.util.Hashtable;
 
 public class MusicPlayerGUI extends JFrame {
 
-    public static final Color FRAME_COLOR = Color.BLACK;
+    public static final Color FRAME_COLOR = Color.darkGray;
     public static final Color TEXT_COLOR = Color.white;
 
     private MusicPlayer musicPlayer;
@@ -54,7 +54,7 @@ public class MusicPlayerGUI extends JFrame {
     private void addGuiComponents(){
         addToolbar();
 
-        JLabel songImage = new JLabel(loadImage("src/assets/record.png"));
+        JLabel songImage = new JLabel(loadImage("src/assets/music.png"));
         songImage.setBounds(0,50,getWidth()-20,225);
         add(songImage);
 

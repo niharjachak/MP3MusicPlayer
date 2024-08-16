@@ -1,7 +1,5 @@
 package src.assets;
 
-import jdk.nashorn.internal.scripts.JO;
-
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;

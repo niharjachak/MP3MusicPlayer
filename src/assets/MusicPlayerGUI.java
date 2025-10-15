@@ -231,6 +231,8 @@ public class MusicPlayerGUI extends JFrame {
         playbackbutton.add(next);
 
         add(playbackbutton);
+
+        // dummy line
     }
 
     public void setPLayBackSliderValue(int frame){

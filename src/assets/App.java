@@ -9,6 +9,10 @@ public class App {
                 new MusicPlayerGUI().setVisible(true);
             }
         });
+        // adding dummy lines of code
+        // and some mre
+        //and some more
+
 
     }
 }

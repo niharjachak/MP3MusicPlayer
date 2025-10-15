@@ -28,6 +28,7 @@ public class MusicPlaylistDialog extends JDialog {
         setLocationRelativeTo(musicPlayerGUI);
 
         addDialogComponents();
+        // dummy line
     }
 
     private void addDialogComponents(){

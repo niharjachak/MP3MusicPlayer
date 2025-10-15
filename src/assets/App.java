@@ -9,5 +9,6 @@ public class App {
                 new MusicPlayerGUI().setVisible(true);
             }
         });
+
     }
 }
